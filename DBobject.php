@@ -8,11 +8,18 @@ debugLog::included_log("dbAPI");
 
 class dbAPI {
 
-	private $user = 'root';
-	private $password = 'root';
+	//private $user = 'root';
+	//private $password = 'root';
+	//private $dbUsers = 'CMS_USERSdb';
+	//private $dbContent = 'CMSdb';
+	//private $host = 'localhost';
+	
+	private $user = 'adminiEFDeSd';
+	private $password = 'pVXJBNTAUhwJ';
 	private $dbUsers = 'CMS_USERSdb';
 	private $dbContent = 'CMSdb';
-	private $host = 'localhost';
+	private $host = '127.9.48.130:3306';
+
 
 	public function db_get_usersDB(){
 		return $this->dbUsers;
