@@ -14,11 +14,11 @@ class dbAPI {
 	//private $dbContent = 'CMSdb';
 	//private $host = 'localhost';
 	
-	private $user = 'adminiEFDeSd';
-	private $password = 'pVXJBNTAUhwJ';
+	private $user = 'admindm7GWM4';
+	private $password = 'G6fUGaCd6paD';
 	private $dbUsers = 'CMS_USERSdb';
 	private $dbContent = 'CMSdb';
-	private $host = '127.9.48.130:3306';
+	private $host = '127.12.108.2:3306';
 
 
 	public function db_get_usersDB(){
