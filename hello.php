@@ -8,6 +8,8 @@
 <?php 
 	include 'app_config.php';
 	$json = file_get_contents("test.json");
+	
+	echo 'geryes test 1'
 	//echo($json);
 
 	// echo "<table>";
